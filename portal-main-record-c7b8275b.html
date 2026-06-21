@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日常查询笔记 · mk体育</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #fafaf9;
+            color: #222;
+            font-family: 'Georgia', 'Times New Roman', 'Noto Serif SC', serif;
+            line-height: 1.75;
+            padding: 2rem 1rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page-container {
+            max-width: 680px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 3rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e0d5;
+            padding-bottom: 1.5rem;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: #1a1a1a;
+            margin-bottom: 0.25rem;
+            line-height: 1.2;
+        }
+
+        header .sub {
+            font-size: 0.9rem;
+            color: #7d7a72;
+            margin-top: 0.2rem;
+            font-style: italic;
+        }
+
+        .intro {
+            font-size: 1.05rem;
+            margin-bottom: 2.2rem;
+            color: #333;
+            border-left: 3px solid #c7bcaa;
+            padding-left: 1.2rem;
+            background: #f6f3ef;
+            padding: 1rem 1.2rem;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .intro p {
+            margin-bottom: 0.4rem;
+        }
+
+        .intro p:last-child {
+            margin-bottom: 0;
+        }
+
+        .post h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin: 2.2rem 0 1rem 0;
+            color: #2e2b27;
+            border-bottom: 1px dashed #dad5cc;
+            padding-bottom: 0.3rem;
+        }
+
+        .post h3 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin: 1.8rem 0 0.6rem 0;
+            color: #3d3934;
+        }
+
+        .post p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+            word-break: break-word;
+        }
+
+        .post p a {
+            color: #8b6f4a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+            transition: color 0.15s;
+        }
+
+        .post p a:hover {
+            color: #5c4a35;
+            text-decoration-thickness: 2px;
+        }
+
+        .quote-block {
+            background: #f0ede8;
+            padding: 1.2rem 1.5rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #3b3732;
+            border-left: 4px solid #b7a68b;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+        }
+
+        .quote-block p {
+            margin-bottom: 0.3rem;
+        }
+
+        .quote-block .source {
+            margin-top: 0.6rem;
+            font-size: 0.9rem;
+            color: #7a7166;
+            font-style: normal;
+            text-align: right;
+        }
+
+        .faq-item {
+            margin: 1.5rem 0;
+            padding: 1rem 0;
+            border-bottom: 1px solid #ece7e0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            color: #2b2722;
+            margin-bottom: 0.3rem;
+            font-size: 1.02rem;
+        }
+
+        .faq-a {
+            color: #44423e;
+            padding-left: 0.4rem;
+        }
+
+        .closing-note {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0d9cf;
+            font-size: 0.95rem;
+            color: #5d5952;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .closing-note a {
+            color: #8b6f4a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .closing-note a:hover {
+            color: #5c4a35;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e2dbd0;
+            margin: 2.5rem 0 1.5rem 0;
+        }
+
+        @media (max-width: 500px) {
+            body {
+                padding: 1.2rem 0.8rem;
+            }
+            header h1 {
+                font-size: 1.7rem;
+            }
+            .intro {
+                font-size: 0.95rem;
+                padding: 0.8rem 1rem;
+            }
+            .post h2 {
+                font-size: 1.3rem;
+            }
+            .quote-block {
+                padding: 1rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <h1>从一场对照开始</h1>
+            <div class="sub">日常查询 · 延伸阅读 · 温和笔记</div>
+        </header>
+
+        <div class="intro">
+            <p>浏览体育资讯、对照赛事数据、翻阅信息碎片——这些零散的动作，渐渐成了日常的延伸。今天试着把几个查询思路整理出来，当作一次安静的梳理。</p>
+        </div>
+
+        <div class="post">
+            <h2>一、查询的起点</h2>
+            <p>很多时候点开一个页面，只是为了快速确认某场比赛的进程，或者对比不同来源的数据描述。体育信息在网络上分布零散，能够在一个相对稳定的地方集中浏览，本身就是一种效率。就像随手翻开一本参考书，翻到哪页都熟悉。</p>
+            <p>我常去 <a href="https://portal-main-mksport.com">mk体育</a> 看看，不是因为那里有什么特别的捷径，而是它提供的视野比较规整——赛程、结果、基础统计都放在明处，不需要反复跳转。对于日常查询来说，这已经足够。</p>
+
+            <h2>二、对照的价值</h2>
+            <p>单独看一场比赛的比分，往往看不出太多。把几天的赛程并在一起，把不同联赛的节奏放在同一个时间轴里，才会发现规律和偏移。体育数据的有趣之处在于，它永远有对照物：主场与客场，上半场与下半场，预期值与实际值。</p>
+            <p>有时候我会同时打开两三个页面，一边看文字描述，一边瞄着数据表。这种“对照阅读”让我觉得踏实——不是只听一个声音，而是自己比对。这时候，<a href="https://portal-main-mksport.com">mk体育</a> 的版面就显出它的好处：信息密度适中，不至于被数字淹没，也不会过于笼统。</p>
+
+            <div class="quote-block">
+                <p>“对照不是怀疑，是一种温和的确认。有时候只是想看看，不同的视角是否指向同样的方向。”</p>
+                <div class="source">—— 摘自某次查询后的笔记</div>
+            </div>
+
+            <h2>三、延伸的线索</h2>
+            <p>读一篇分析文章，里面提到某个队伍的客场数据变化。好奇之下，顺着线索去查该队近十场的客场表现。原本只是随便看看，结果在数据表中注意到一项之前忽略的统计——它和文章里的观点完全吻合，又延伸出新的问题。这种“阅读-查询-再阅读”的循环，大概就是延伸的乐趣。</p>
+            <p>延伸阅读不需要宏大的计划，只需要一个可靠的起点。一个信息组织清晰的平台，能让这些小小的探索变得流畅。如果你也有类似的好奇心，不妨从 <a href="https://portal-main-mksport.com">mk体育</a> 的某个页面开始，看看自己能走多远。</p>
+
+            <h2>四、FAQ 摘要 · 关于查询习惯</h2>
+            <div class="faq-item">
+                <div class="faq-q">问：日常查询时，怎么快速找到需要的赛事？</div>
+                <div class="faq-a">答：多数平台会把当日重点赛事直接列在首页。习惯用搜索功能也能节省时间。mk体育 的导航结构比较清晰，按联赛或时间筛选都很直接。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">问：对照数据时，需要注意什么？</div>
+                <div class="faq-a">答：注意数据更新的时间戳，以及统计口径是否一致。不同来源的“控球率”“射正数”可能定义有细微差别。在同一个平台内对照，一致性会更高。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">问：延伸阅读有没有什么推荐的方法？</div>
+                <div class="faq-a">答：从一场比赛出发，看分析文章、查历史交锋、翻球员数据，再回到赛事本身。不用刻意追求深度，顺着兴趣走就好。重要的是保持开放和怀疑——每个数字背后都有故事。</div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="closing-note">
+            <p>整理成文，是为了下次翻阅时不必从头想起。<br>
+            如果你也有自己的查询习惯，希望这篇笔记能成为一个小小的参照。<br>
+            页面导航入口：<a href="https://portal-main-mksport.com">mk体育</a> · 数据以官方发布为准</p>
+            <p style="margin-top: 0.8rem; font-size: 0.85rem; color: #aaa49c;">仅作日常参考 · 内容持续更新</p>
+        </div>
+    </div>
+</body>
+</html>
